@@ -179,6 +179,17 @@ h1 {
     color: var(--muted);
 }
 
+.card-link {
+    display: inline-flex;
+    margin-top: 18px;
+    font-weight: 750;
+    text-decoration: none;
+}
+
+.card.wide {
+    grid-column: 1 / -1;
+}
+
 .content {
     padding: 42px 46px;
     border-radius: 28px;
